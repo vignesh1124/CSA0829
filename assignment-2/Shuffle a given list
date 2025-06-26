@@ -1,0 +1,5 @@
+# 11. Shuffle a given list
+def shuffle_list(lst):
+    shuffled = lst[:]
+    random.shuffle(shuffled)
+    return shuffled
