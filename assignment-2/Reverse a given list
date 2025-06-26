@@ -1,0 +1,3 @@
+# 16. Reverse a given list
+def reverse_list(lst):
+    return lst[::-1]
