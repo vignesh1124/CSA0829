@@ -1,0 +1,2 @@
+def kth_smallest(lst, k):
+    return sorted(lst)[k - 1]
