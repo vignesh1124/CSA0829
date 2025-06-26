@@ -1,0 +1,3 @@
+# 10. Find the Max and Min elements in a list
+def max_min(lst):
+    return max(lst), min(lst)
