@@ -1,0 +1,7 @@
+# 7. Find the largest subsequence sum in a list (Kadane’s Algorithm)
+def max_subsequence_sum(lst):
+    max_sum = curr_sum = lst[0]
+    for num in lst[1:]:
+        curr_sum = max(num, curr_sum + num)
+        max_sum = max(max_sum, curr_sum)
+    return max_sum
