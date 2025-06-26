@@ -1,0 +1,4 @@
+# 18. Find the smallest number in a given list
+def find_smallest(lst):
+    return min(lst)
+
