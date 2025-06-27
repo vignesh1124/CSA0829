@@ -1,0 +1,6 @@
+m = 13  # vehicles
+n = 4   # children
+x = m % n
+print("Vehicles for Peter:", x)
+if m % 2 == 0:
+    print("Peter is luckier")
