@@ -1,0 +1,4 @@
+import string
+s = "Modi Birthday @ September 17, #&$% is the wishes code for him."
+specials = [c for c in s if not c.isalnum() and c != ' ']
+print("Number of special Characters:", len(specials))
