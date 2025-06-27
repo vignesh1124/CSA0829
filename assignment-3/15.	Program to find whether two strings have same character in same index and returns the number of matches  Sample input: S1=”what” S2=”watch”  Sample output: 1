@@ -1,0 +1,7 @@
+s1 = "what"
+s2 = "watch"
+count = 0
+for i in range(min(len(s1), len(s2))):
+    if s1[i] == s2[i]:
+        count += 1
+print("Matching characters at same index:", count)
